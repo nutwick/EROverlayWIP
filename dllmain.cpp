@@ -4,12 +4,14 @@
 #include "Hooking.hpp"
 #include "Menu.hpp"
 #include "GameDataMan.hpp"
+#include "ParamRepo.hpp"
 
 void MainThread()
 {
     using namespace ER;
     g_GameVariables = std::make_unique<GameVariables>();
     g_GameDataMan = std::make_unique<GameDataMan>();
+    g_ParamRepo = std::make_unique<ParamRepo>();
 
     g_Menu = std::make_unique<Menu>();
     g_D3DRenderer = std::make_unique<D3DRenderer>();

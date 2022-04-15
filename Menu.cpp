@@ -1,6 +1,7 @@
 #include "Menu.hpp"
 #include "ImGui/imgui.h"
 #include "GameDataMan.hpp"
+#include "ParamRepo.hpp"
 
 namespace ER {
 
@@ -10,13 +11,21 @@ namespace ER {
             return;
 
         ImGui::InputInt("Vigor", (int*)&g_GameDataMan->GameData->Stats.Vigor);
-        ImGui::InputInt("Mind", (int*)&g_GameDataMan->GameData->Stats.Mind);
-        ImGui::InputInt("Endurance", (int*)&g_GameDataMan->GameData->Stats.Endurance);
+        ImGui::InputInt("Mind", (int*)&g_GameDataMan->GameData->Stats.Endurance);
+        ImGui::InputInt("Endurance", (int*)&g_GameDataMan->GameData->Stats.Mind);
         ImGui::InputInt("Strength", (int*)&g_GameDataMan->GameData->Stats.Strength);
         ImGui::InputInt("Dexterity", (int*)&g_GameDataMan->GameData->Stats.Dexterity);
         ImGui::InputInt("Intelligence", (int*)&g_GameDataMan->GameData->Stats.Intelligence);
         ImGui::InputInt("Faith", (int*)&g_GameDataMan->GameData->Stats.Faith);
         ImGui::InputInt("Arcane", (int*)&g_GameDataMan->GameData->Stats.Arcane);
+        ImGui::InputInt("Name", (int*)&g_GameDataMan->GameData->Name;
+        ImGui::InputInt("MaxHealth", (int*)&g_GameDataMan->);
+        ImGui::InputInt("BaseMaxHealth", (int*)&g_GameDataMan->GameData->BaseMaxHealth);
+        ImGui::InputInt("Mana", (int*)&g_GameDataMan->GameData->Mana);
+        ImGui::InputInt("MaxMana", (int*)&g_GameDataMan->GameData->MaxMana);
+        ImGui::InputInt("BaseMaxMana", (int*)&g_GameDataMan->GameData->BaseMaxMana);
+        ImGui::InputInt("Focus", (int*)&g_GameDataMan->GameData->Focus);
+        ImGui::InputInt("Focus2", (int*)&g_ParamRepo->
     }
 
     void Menu::Draw()

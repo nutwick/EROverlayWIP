@@ -4,6 +4,42 @@
 
 namespace ER {
 #pragma pack(1)
+    struct EquipParamWepOff {
+    public:
+        uint8_t EquipParamWeaponOffset1; // 0x88
+        uint8_t EquipParamWeaponOffset2; // 0x80
+        uint8_t EquipParamWeaponOffset3; // 0x80
+    };
+#pragma(pop)
+#pragma pack(1)
+    struct EquipParamWeapon {
+    public:
+
+        uint8_t MaterialSetID; // 0x5C
+        uint8_t ReinforceTypeID; // 0xDA
+        uint8_t SwordArtsParamId; // 0x198
+        uint8_t WepType; // 0x1A6
+    };
+#pragma(pop)
+#pragma pack (1)
+    struct EquipParamGemOff {
+    public:
+        uint8_t EquipParamGemOffset1; // 0x2BD8
+        uint8_t EquipParamGemOffset2; // 0x80
+        uint8_t EquipParamGemOffset3; // 0x80
+    };
+#pragma(pop)
+#pragma pack (1)
+    struct EquipParamGem {
+    public:
+        uint8_t canMountWep_Dagger; // 0x38
+        uint8_t canMountWep_SwordPierce; // 0x39
+        uint8_t canMountWep_SpearLarge; // 0x3A
+        uint8_t canMountWep_BowSmall; // 0x3B
+        uint8_t canMountWep_ShieldSmall; // 0x3C
+
+    };
+#pragma(pop)
     class ParamRepo {
     public:
         uint8_t TotalParamLength; // 0x0
@@ -23,41 +59,8 @@ namespace ER {
         bool Valid();
 
     };
-    
-#pragma(pop)
-    class EquipParamWepOff {
-    public:
-        uint8_t EquipParamWeaponOffset1; // 0x88
-        uint8_t EquipParamWeaponOffset2; // 0x80
-        uint8_t EquipParamWeaponOffset3; // 0x80
-    };
-#pragma pack (1)
-    class EquipParamWeapon {
-    public:
-    
-        uint8_t MaterialSetID; // 0x5C
-        uint8_t ReinforceTypeID; // 0xDA
-        uint8_t SwordArtsParamId; // 0x198
-        uint8_t WepType; // 0x1A6
-    };
-#pragma(pop)
-    class EquipParamGemOff {
-    public:
-        uint8_t EquipParamGemOffset1; // 0x2BD8
-        uint8_t EquipParamGemOffset2; // 0x80
-        uint8_t EquipParamGemOffset3; // 0x80
-    };
-#pragma pack(1)
-    class EquipParamGem {
-    public:
-        uint8_t canMountWep_Dagger; // 0x38
-        uint8_t canMountWep_SwordPierce; // 0x39
-        uint8_t canMountWep_SpearLarge; // 0x3A
-        uint8_t canMountWep_BowSmall; // 0x3B
-        uint8_t canMountWep_ShieldSmall; // 0x3C
 
-    };
-#pragma(pop)
+
     inline std::unique_ptr<ParamRepo> g_ParamRepo;
-    }
 }
+

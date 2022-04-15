@@ -18,14 +18,12 @@ namespace ER {
         ImGui::InputInt("Intelligence", (int*)&g_GameDataMan->GameData->Stats.Intelligence);
         ImGui::InputInt("Faith", (int*)&g_GameDataMan->GameData->Stats.Faith);
         ImGui::InputInt("Arcane", (int*)&g_GameDataMan->GameData->Stats.Arcane);
-        ImGui::InputInt("Name", (int*)&g_GameDataMan->GameData->Name;
-        ImGui::InputInt("MaxHealth", (int*)&g_GameDataMan->);
         ImGui::InputInt("BaseMaxHealth", (int*)&g_GameDataMan->GameData->BaseMaxHealth);
         ImGui::InputInt("Mana", (int*)&g_GameDataMan->GameData->Mana);
         ImGui::InputInt("MaxMana", (int*)&g_GameDataMan->GameData->MaxMana);
         ImGui::InputInt("BaseMaxMana", (int*)&g_GameDataMan->GameData->BaseMaxMana);
         ImGui::InputInt("Focus", (int*)&g_GameDataMan->GameData->Focus);
-        ImGui::InputInt("Focus2", (int*)&g_ParamRepo->
+        
     }
 
     void Menu::Draw()

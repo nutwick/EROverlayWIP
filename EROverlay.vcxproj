@@ -191,6 +191,8 @@
     <ClInclude Include="Minhook\src\HDE\table32.h" />
     <ClInclude Include="Minhook\src\HDE\table64.h" />
     <ClInclude Include="Minhook\src\trampoline.h" />
+    <ClInclude Include="ParamRepo.hpp" />
+    <ClInclude Include="resource.h" />
     <ClInclude Include="Vector.hpp" />
   </ItemGroup>
   <ItemGroup>
@@ -218,10 +220,14 @@
     <ClCompile Include="Minhook\src\HDE\hde64.c" />
     <ClCompile Include="Minhook\src\hook.c" />
     <ClCompile Include="Minhook\src\trampoline.c" />
+    <ClCompile Include="ParamRepo.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Minhook\src\.gitkeep" />
     <None Include="Minhook\src\HDE\.gitkeep" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ER Overlay.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,7 +1,6 @@
 #include "GameDataMan.hpp"
 
 namespace ER {
-
 	GameDataMan::GameDataMan()
 	{
 		Init();

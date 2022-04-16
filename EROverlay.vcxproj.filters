@@ -31,6 +31,15 @@
     <Filter Include="Source Files\Game">
       <UniqueIdentifier>{e37f2d3e-a33a-4992-9b66-4a121c08e887}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\ParamOffsets">
+      <UniqueIdentifier>{a4f850fb-fd01-4f83-a9fe-108409ad14d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\ParamNames">
+      <UniqueIdentifier>{f9a88957-1a9f-454c-8e43-c624d2df53b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\ParamDefs">
+      <UniqueIdentifier>{a00861ce-c106-43ba-89f3-664315c9ba9f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Common.hpp">
@@ -219,5 +228,1143 @@
     <ResourceCompile Include="ER Overlay.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Pointers\ParamOffsets.txt">
+      <Filter>Resource Files\ParamOffsets</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\WwiseValueToStrParam_Switch_DeffensiveMaterial.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\WwiseValueToStrParam_Switch_GrassHitType.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\WwiseValueToStrParam_Switch_HitStop.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\WwiseValueToStrParam_Switch_OffensiveMaterial.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\WwiseValueToStrParam_Switch_PlayerEquipmentBottoms.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\WwiseValueToStrParam_Switch_PlayerEquipmentTops.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\WwiseValueToStrParam_Switch_PlayerShoes.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\WwiseValueToStrParam_Switch_PlayerVoiceType.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\ActionButtonParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\AiSoundParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\AssetEnvironmentGeometryParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\AssetMaterialSfxParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\AssetModelSfxParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\AtkParam_Npc.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\AtkParam_Pc.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\AttackElementCorrectParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\AutoCreateEnvSoundParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\BaseChrSelectMenuParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\BehaviorParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\BehaviorParam_PC.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\BonfireWarpParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\BonfireWarpSubCategoryParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\BonfireWarpTabParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\BuddyParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\BuddyStoneParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\BudgetParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\Bullet.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\BulletCreateLimitParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\CalcCorrectGraph.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\Ceremony.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\CharacterLoadParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\CharaInitParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\CharMakeMenuListItemParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\CharMakeMenuTopParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\ChrActivateConditionParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\ChrModelParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\ClearCountCorrectParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\CoolTimeParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\CultSettingParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\CutsceneGparamTimeParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\CutsceneGparamWeatherParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\CutsceneMapIdParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\CutSceneTextureLoadParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\CutsceneTimezoneConvertParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\CutsceneWeatherOverrideGparamConvertParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\DecalParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\DirectionCameraParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\EnemyCommonParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\EnvObjLotParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\EquipMtrlSetParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\EquipParamAccessory.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\EquipParamCustomWeapon.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\EquipParamGem.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\EquipParamGoods.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\EquipParamProtector.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\EquipParamWeapon.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\FaceGenParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\FaceParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\FaceRangeParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\FeTextEffectParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\FootSfxParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\GameAreaParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\GameProgressParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\GameSystemCommonParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\GemCategoryParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\GemDropDopingParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\GemDropModifyParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\GemeffectParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\GemGenParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\GestureParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\GparamRefSettings.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\GraphicsCommonParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\GraphicsConfig.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\GrassLodRangeParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\GrassTypeParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\GrassTypeParam_Lv1.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\GrassTypeParam_Lv2.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\HitEffectSeParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\HitEffectSfxConceptParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\HitEffectSfxParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\HitMtrlParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\HPEstusFlaskRecoveryParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\ItemLotParam_enemy.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\ItemLotParam_map.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\KeyAssignMenuItemParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\KeyAssignParam_TypeA.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\KeyAssignParam_TypeB.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\KeyAssignParam_TypeC.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\KnockBackParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\KnowledgeLoadScreenItemParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\LegacyDistantViewPartsReplaceParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\LoadBalancerDrawDistScaleParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\LoadBalancerDrawDistScaleParam_ps4.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\LoadBalancerDrawDistScaleParam_ps5.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\LoadBalancerDrawDistScaleParam_xb1.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\LoadBalancerDrawDistScaleParam_xb1x.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\LoadBalancerDrawDistScaleParam_xss.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\LoadBalancerDrawDistScaleParam_xsx.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\LoadBalancerNewDrawDistScaleParam_ps4.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\LoadBalancerNewDrawDistScaleParam_ps5.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\LoadBalancerNewDrawDistScaleParam_win64.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\LoadBalancerNewDrawDistScaleParam_xb1.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\LoadBalancerNewDrawDistScaleParam_xb1x.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\LoadBalancerNewDrawDistScaleParam_xss.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\LoadBalancerNewDrawDistScaleParam_xsx.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\LoadBalancerParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\LockCamParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\Magic.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\MapDefaultInfoParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\MapGdRegionDrawParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\MapGdRegionInfoParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\MapGridCreateHeightLimitInfoParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\MapMimicryEstablishmentParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\MapNameTexParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\MapPieceTexParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\MaterialExParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\MenuColorTableParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\MenuCommonParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\MenuOffscrRendParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\MenuPropertyLayoutParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\MenuPropertySpecParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\MenuValueTableParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\MimicryEstablishmentTexParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\MPEstusFlaskRecoveryParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\MultiHPEstusFlaskBonusParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\MultiMPEstusFlaskBonusParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\MultiPlayCorrectionParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\MultiSoulBonusRateParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\NetworkAreaParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\NetworkMsgParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\NetworkParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\NpcAiActionParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\NpcAiBehaviorProbability.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\NpcParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\NpcThinkParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\ObjActParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\PartsDrawParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\PhantomParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\PlayerCommonParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\PlayRegionParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\PostureControlParam_Gender.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\PostureControlParam_Pro.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\PostureControlParam_WepLeft.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\PostureControlParam_WepRight.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\RandomAppearParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\ReinforceParamProtector.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\ReinforceParamWeapon.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\ResistCorrectParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\RideParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\RoleParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\RollingObjLotParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\RuntimeBoneControlParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\SeActivationRangeParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\SeMaterialConvertParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\SfxBlockResShareParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\ShopLineupParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\ShopLineupParam_Recipe.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\SignPuddleParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\SoundAssetSoundObjEnableDistParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\SoundAutoEnvSoundGroupParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\SoundAutoReverbEvaluationDistParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\SoundAutoReverbSelectParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\SoundChrPhysicsSeParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\SoundCommonIngameParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\SoundCutsceneParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\SpeedtreeParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\SpEffectParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\SpEffectSetParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\SpEffectVfxParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\SwordArtsParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\TalkParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\ThrowDirectionSfxParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\ThrowParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\ToughnessParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\TutorialParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\WaypointParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\WeatherAssetCreateParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\WeatherAssetReplaceParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\WeatherLotParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\WeatherLotTexParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\WeatherParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\WepAbsorpPosParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\WetAspectParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\WhiteSignCoolTimeParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\WorldMapLegacyConvParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\WorldMapPieceParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\WorldMapPlaceNameParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\WorldMapPointParam.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\WwiseValueToStrParam_BgmBossChrIdConv.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\WwiseValueToStrParam_EnvPlaceType.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\WwiseValueToStrParam_Switch_AttackStrength.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\WwiseValueToStrParam_Switch_AttackType.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+    <Text Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Names\WwiseValueToStrParam_Switch_DamageAmount.txt">
+      <Filter>Resource Files\ParamNames</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\SpEffect.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\SpEffectSetParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\SpEffectVfx.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\SwordArtsParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\TalkParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\ThrowDirectionSfxParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\ThrowParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\ToughnessParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\TutorialParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\WaypointParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\WeatherAssetCreateParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\WeatherAssetReplaceParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\WeatherLotParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\WeatherLotTexParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\WeatherParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\WepAbsorpPosParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\WetAspectParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\WhiteSignCoolTimeParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\WorldMapLegacyConvParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\WorldMapPieceParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\WorldMapPlaceNameParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\WorldMapPointParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\WwiseValueToStrConvertParamFormat.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\ActionButtonParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\AiAnimTblParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\AIAttackParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\AiOddsParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\AiSoundParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\AiStandardInfo.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\AssetGeometryParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\AssetMaterialSfxParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\AssetModelSfxParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\AtkParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\AttackElementCorrectParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\AutoCreateEnvSoundParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\BaseChrSelectMenuParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\BehaviorParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\BonfireWarpParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\BonfireWarpSubCategoryParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\BonfireWarpTabParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\BuddyParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\BuddyStoneParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\BudgetParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\BulletCreateLimitParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\BulletParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\CalcCorrectGraph.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\CameraFadeParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\CeremonyParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\CharaInitParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\CharMakeMenuListItemParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\CharMakeMenuTopParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\ChrActivateConditionParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\ChrModelParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\ClearCountCorrectParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\CommonSystemParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\CoolTimeParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\CutsceneGparamTimeParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\CutsceneGparamWeatherParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\CutsceneMapIdParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\CutSceneTextureLoadParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\CutsceneTimezoneConvertParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\CutsceneWeatherOverrideGparamIdConvertParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\DecalParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\DefaultKeyAssign.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\DirectionCameraParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\EnemyCommonParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\EnemyStandardInfo.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\EnvObjLotParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\EquipMtrlSetParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\EquipParamAccessory.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\EquipParamCustomWeapon.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\EquipParamGem.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\EquipParamGoods.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\EquipParamProtector.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\EquipParamWeapon.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\EstusFlaskRecoveryParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\EventFlagUsageParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\FaceParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\FaceRangeParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\FeTextEffectParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\FootSfxParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\GameAreaParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\GameInfoParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\GameSystemCommonParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\Gconfig_AAQuality.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\Gconfig_DecalQuality.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\Gconfig_DOFQuality.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\Gconfig_EffectQuality.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\Gconfig_LightingQuality.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\Gconfig_MotionBlurQuality.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\Gconfig_ReflectionQuality.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\Gconfig_ShaderQuality.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\Gconfig_ShadowQuality.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\Gconfig_SSAOQuality.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\Gconfig_TextureFilterQuality.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\Gconfig_VolumetricEffectQuality.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\Gconfig_WaterQuality.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\GestureParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\GparamGridRegionInfo.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\GparamRefSettingsParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\GraphicsCommonParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\GraphicsConfig.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\GrassLodRangeParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\GrassMapSettings.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\GrassTypeParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\HitEffectSeParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\HitEffectSfxConceptParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\HitEffectSfxParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\HitMtrlParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\ItemLotParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\KeyAssignMenuItemParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\KeyAssignParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\KnockBackParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\KnowledgeLoadScreenItemParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\LegacyDistantViewPartsReplaceParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\LoadBalancerDrawDistScaleParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\LoadBalancerNewDrawDistScaleParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\LoadBalancerParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\LockCamParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\MagicParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\MapDefaultInfoParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\MapGdRegionDrawParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\MapGdRegionInfo.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\MapGridCreateHeightLimitInfo.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\MapMimicryEstablishmentParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\MapNameTexParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\MapPieceTexParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\MaterialEx.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\MenuCommonParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\MenuOffscrRendParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\MenuParamColorTable.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\MenuPropertyLayoutParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\MenuPropertySpecParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\MenuValueTableSpecParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\MimicryEstablishmentTexParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\MissileParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\ModelSfxParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\MoveParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\MultiEstusFlaskBonusParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\MultiPlayCorrectionParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\MultiSoulBonusRateParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\NetworkAreaParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\NetworkMsgParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\NetworkParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\NpcAiActionParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\NpcAiBehaviorProbabilityParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\NpcParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\NpcThinkParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\ObjActParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\ObjectMaterialSfxParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\ObjectParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\PartsDrawParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\PerformanceCheckParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\PhantomParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\PlayerCommonParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\PlayRegionParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\PostureControlParam_Gender.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\PostureControlParam_Pro.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\PostureControlParam_WepLeft.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\PostureControlParam_WepRight.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\RandomAppearEditParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\RandomAppearParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\ReinforceParamProtector.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\ReinforceParamWeapon.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\ResistCorrectParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\ReverbAuxSendBusParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\RideParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\RoleParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\RollingObjLotParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\RuntimeBoneControlParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\SeActivationRangeParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\SeMaterialConvertParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\SfxBlockResShareParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\ShopLineupParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\SignPuddleParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\SoundAssetSoundObjEnableDistParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\SoundAutoEnvSoundGroupParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\SoundAutoReverbEvaluationDistParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\SoundAutoReverbSelectParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\SoundChrPhysicsSeParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\SoundCommonIngameParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\SoundCommonSystemParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\SoundCutsceneParam.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
+    <Xml Include="..\..\..\Desktop\Elden Ring Debug Tool 0.4\Resources\Params\Defs\SpeedtreeModel.xml">
+      <Filter>Resource Files\ParamDefs</Filter>
+    </Xml>
   </ItemGroup>
 </Project>

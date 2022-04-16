@@ -42,12 +42,12 @@ namespace ER {
 #pragma(pop)
     class ParamRepo {
     public:
-        uint8_t TotalParamLength; // 0x0
-        uint32_t NameOffset; // 0x10
-        uint8_t TableLength; // 0x30
         uint64_t Base{};
         uint64_t Ptr{};
         uint64_t LastPtr{};
+        uint8_t TotalParamLength; // 0x0
+        uint32_t NameOffset; // 0x10
+        uint8_t TableLength; // 0x30
         explicit ParamRepo();
         ~ParamRepo() noexcept = default;
         ParamRepo(ParamRepo const&) = delete;

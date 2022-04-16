@@ -17,7 +17,7 @@ namespace ER {
 
         uint8_t MaterialSetID; // 0x5C
         uint8_t ReinforceTypeID; // 0xDA
-        uint32_t SwordArtsParamId; // 0x198
+        uint8_t SwordArtsParamId; // 0x198
         uint8_t WepType; // 0x1A6
     };
 #pragma(pop)
@@ -42,25 +42,20 @@ namespace ER {
 #pragma(pop)
     class ParamRepo {
     public:
+        uint8_t TotalParamLength; // 0x0
+        uint32_t NameOffset; // 0x10
+        uint8_t TableLength; // 0x30
         uint64_t Base{};
         uint64_t Ptr{};
         uint64_t LastPtr{};
-        uint32_t TotalParamLength{}; // 0x0
-        uint32_t NameOffset{}; // 0x10
-        uint32_t TableLength{}; // 0x30
-        //EquipParamWeapon* ParamRep{}; // 0x80  maybe causing crash?
-
         explicit ParamRepo();
         ~ParamRepo() noexcept = default;
-
         ParamRepo(ParamRepo const&) = delete;
         ParamRepo(ParamRepo&&) = delete;
         ParamRepo& operator=(ParamRepo const&) = delete;
         ParamRepo& operator=(ParamRepo&&) = delete;
-
         void Init();
         void Update();
-
         bool Valid();
 
     };

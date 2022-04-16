@@ -43,10 +43,7 @@ namespace ER {
 		}
 
 		LastPtr = Ptr;
-		//NameOffset = RPM<uint32_t>(Ptr + 0x10);
-		//TableLength = RPM<uint32_t>(Ptr + 0x30);
-		//TotalParamLength = RPM<uint32_t>(Ptr + 0x0);
-		ParamRep = (EquipParamWeapon*)RPM<uint64_t>(Ptr + 0x80);
+
 	}
 
 	bool ParamRepo::Valid()

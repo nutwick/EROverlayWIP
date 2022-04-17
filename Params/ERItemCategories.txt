@@ -1,0 +1,5 @@
+﻿Weapons/MeleeWeapons.txt true
+Weapons/MeleeWeapons.txt true
+Weapons/MeleeWeapons.txt true
+//RangedWeapons.txt false
+Weapons/Shields.txt true

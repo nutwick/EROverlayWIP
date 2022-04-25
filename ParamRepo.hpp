@@ -40,14 +40,53 @@ namespace ER {
 
     };
 #pragma(pop)
+#pragma pack (1)
+
+    struct EquipParamProtectorOff1
+    {
+    public:
+        uint32_t EquipParamProtectorOffset2; // 0x80
+        uint32_t EquipParamProtectorOffset3; // 0x80 
+
+    };
+#pragma(pop)
+#pragma pack(1)
+
+    struct ParamTable
+    {
+    public:
+        uint32_t ParamID; //0x0000 
+        uint32_t Pad; //0x0004 
+        uint64_t ParamOffset; //0x0008 
+        char pad_0x0010[0x8]; //0x0010
+        uint64_t nextParam; //0x0018 
+        char pad_0x0020[0x20]; //0x0020
+        uint64_t Param; //0x0040 
+    }; 
+#pragma(pop)
+#pragma pack(1)
+
+    struct HelmParam {
+    public:
+        char pad_0x0000[0x28]; //0x0000
+        uint32_t SpEffect1; //0x0028 
+        uint32_t SpEffect2; //0x002C 
+        uint32_t SpEffect3; //0x0030
+
+    };
+
+
+#pragma(pop)
+
+
     class ParamRepo {
     public:
         uint64_t Base{};
         uint64_t Ptr{};
         uint64_t LastPtr{};
-        uint8_t TotalParamLength; // 0x0
-        uint32_t NameOffset; // 0x10
-        uint8_t TableLength; // 0x30
+        ParamTable* ParamTble{}; //(ParamTable*)RPM<uintptr_t>(RPM<uintptr_t>(RPM<uintptr_t>(Ptr + 0xD0) + 0x80) + 0x80)
+        HelmParam* HelmPram{};
+
         explicit ParamRepo();
         ~ParamRepo() noexcept = default;
         ParamRepo(ParamRepo const&) = delete;
@@ -63,4 +102,3 @@ namespace ER {
 
     inline std::unique_ptr<ParamRepo> g_ParamRepo;
 }
-

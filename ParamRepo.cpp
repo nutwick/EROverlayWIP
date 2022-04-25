@@ -43,7 +43,9 @@ namespace ER {
 		}
 
 		LastPtr = Ptr;
-
+		ParamTble = (ParamTable*)RPM<uintptr_t>(RPM<uintptr_t>(RPM<uintptr_t>(Ptr + 0xD0) + 0x80) + 0x80);
+		HelmPram = (HelmParam*)RPM<uintptr_t>(RPM<uintptr_t>(RPM<uintptr_t>(Ptr + 0xD0) + 0x80) + 0x80) + 0xC798;
+	
 	}
 
 	bool ParamRepo::Valid()

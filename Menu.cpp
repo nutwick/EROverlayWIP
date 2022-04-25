@@ -23,7 +23,12 @@ namespace ER {
         ImGui::InputInt("MaxMana", (int*)&g_GameDataMan->GameData->MaxMana);
         ImGui::InputInt("BaseMaxMana", (int*)&g_GameDataMan->GameData->BaseMaxMana);
         ImGui::InputInt("Focus", (int*)&g_GameDataMan->GameData->Focus);
-        ImGui::InputInt("Ptr", (int*)&g_ParamRepo->Ptr); //Ptr from SoloParamRepository aob
+        ImGui::InputInt("ParamID", (int*)&g_ParamRepo->ParamTble->ParamID);
+        ImGui::InputInt("Param", (int*)&g_ParamRepo->ParamTble->Param);
+        ImGui::InputInt("Sp1", (int*)&g_ParamRepo->HelmPram->SpEffect1);
+        ImGui::InputInt("Sp2", (int*)&g_ParamRepo->HelmPram->SpEffect2);
+        ImGui::InputInt("Sp3", (int*)&g_ParamRepo->HelmPram->SpEffect3);
+        
         
     }
 
